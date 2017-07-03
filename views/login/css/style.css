@@ -1,0 +1,189 @@
+.navbar {
+        padding: 0px;
+}
+
+body {
+    background-color: #333333;
+}
+
+.page {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.mastfoot {
+    height: 50px;
+    color: white;
+    padding: 15px;
+    bottom: 0;
+}
+
+.loginArea {
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.logoImage {
+    margin: 50px 0 50px 0;
+    background-color: #eee;
+}
+
+.loginForm {
+    margin-left: 35px;
+    text-align: left;
+}
+
+.loginForm input {
+    width: 280px;
+    height: 35px;
+}
+
+.loginForm .btn {
+    margin-top: 25px;
+    height: 45px;
+    background-color: #333333;
+    color: white;
+}
+
+.signupArea {
+    margin-left: 35px;
+    text-align: left;
+}
+
+.signupArea a {
+    background-color: #333333;
+    width: 280px;
+    color: white;
+    height: 45px;
+    padding-top: 12px;
+}
+
+/* unvisited link */
+.signupArea a:link {
+    color: white;
+}
+
+/* visited link */
+.signupArea a:visited {
+    color: white;
+}
+
+.horizontalDivider {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#hiddenMessage {
+    display: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ff3333;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px; }
+
+.modal-body p {
+    margin: 40px 0px 40px 0px;
+    text-align: left;
+    font-size: 14px;
+    padding: 2% 0px 2% 0px;
+}
+
+.modal-body .imageArea {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%
+}
+
+.modal-body .skillImages {
+    width: 200px;
+    height: 200px;
+}
+
+.modal-body .explanationArea {
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body .details {
+    margin-top: -3%;
+    padding-left: 3em;
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: -2em;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Modal Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Modal Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

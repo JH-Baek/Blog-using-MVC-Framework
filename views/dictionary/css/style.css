@@ -1,0 +1,164 @@
+.navbar {
+        padding: 0px;
+}
+
+body {
+    text-align: center;
+    
+    background-color: #333333;
+}
+
+.dictionaryContainer {
+    padding-top: 250px;
+    padding-bottom: 25px;
+    background-color: white;
+    
+}
+
+.mastfoot {
+    height: 50px;
+    color: white;
+    padding: 15px;
+}
+
+.title h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.partOfSpeech {
+    text-align: left;
+}
+
+.title {
+    
+    margin-bottom: 325px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.form form label {
+    font-size: 18px;
+}
+
+.text-box {
+     width: 400px;
+     height: 30px;
+}
+
+.submitButton {
+    width: 100px;
+    height: 30px;
+}
+
+.col-lg-12 {
+    margin: 30px;
+    text-align: center;
+}
+
+#note {
+    padding: 2%;
+    margin: 3%;
+    background-color: #eee;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.searchResult {
+    padding: 4%;
+    background-color: #eee;
+}
+
+.partOfSpeech {
+    text-align: left;
+    margin-top: 4%;
+}
+
+.definition {
+    text-align: left;
+}
+
+.subDefinition {
+    text-align: left;
+}
+
+#searchPartOfSpeech {
+    margin-bottom: -1.5%;
+}
+
+#searchDefinition {
+    margin-top: 2%;
+}
+
+.pagination {
+    margin-top: 5%;
+}
+
+.pagination a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.loader {
+        background-color: white;
+        visibility: hidden;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../../../public/images/preloader.gif") 50% 50% no-repeat #fff;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+        
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #dcd0b0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #note {
+    padding: 2%;
+    margin: 5%;
+    background-color: #eee;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 960x) {
+    #note {
+    padding: 2%;
+    margin: 5%;
+    background-color: #eee;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    }
+}

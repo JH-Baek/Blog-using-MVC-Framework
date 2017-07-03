@@ -1,0 +1,419 @@
+.navbar {
+        padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #333333;
+    
+}
+
+.mastfoot {
+    height: 50px;
+    color: white;
+    padding: 15px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: white;
+    
+}
+
+.title {
+    padding-top: 150px;
+}
+
+#performanceInsert label {
+    font-size: 18px;
+}
+
+.text-box {
+     width: 300px;
+     height: 30px;
+}
+
+.col-lg-12 {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #eee;
+    
+}
+
+#measurementAreaWrap {
+    background-color: white;
+}
+
+#taskNameAndTypeArea {
+    margin-top: 100px;
+}
+
+#stopwatchArea {
+    background-color: white;
+}
+
+.measurementArea {
+    
+    margin-bottom: 100px;
+    display: inline-block;
+    border: 0px;
+    width: 50%;
+    
+}
+
+#taskSubmitButton {
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+#timer {
+    font-family: "Lato";
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.sw-btn {
+    width: 100px;
+    height: 35px;
+    margin: 30px;
+}
+
+.sw-btn:hover {
+    cursor: pointer;
+}
+
+
+
+
+.listingByDate {
+    width: 80%;
+    background-color: #eee;
+    padding: 15px;
+    padding-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    overflow: hidden;
+    
+    
+    
+}
+
+
+
+.listingByDate .orderByDates {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-left: 4%;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.orderByDates .date {
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.task {
+    margin: 2%;
+    text-align: left;
+    padding: 2%;
+    padding-top: 0.5%;
+    background-color: #eee;
+    display: inline-block;
+    float: left;
+    width: 28%;
+    border-radius: 25px;
+}
+
+.task a {
+    text-decoration: none;
+}
+
+.del {
+    float: right;
+    margin-top: 10px;
+}
+
+.buttonForTaskListing {
+    padding-bottom: 50px;
+    background-color: #eee;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#show {
+    
+    background-color: white;
+    margin-left: auto;
+    width: 200px;
+    margin-right: auto;
+    
+}
+
+#performanceInsert {
+    background-color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.colorVisualiser {
+    width: 100px;
+    height: 20px;
+    
+    
+}
+
+.btn-primary {
+    width: 100px;
+    text-align: center;
+    
+}
+
+
+#radioValue {
+    text-align: center;
+    border: none;
+    margin-left: 15px;
+    width: 50px;
+    
+}
+
+.focusLevel {
+    text-align: left;
+    border: none;
+    margin-left: 5px;
+    width: 50px
+}
+
+#greatBtn {
+    border-color: #33cc00;
+    background-color: #33cc00;
+}
+
+#satisfactoryBtn {
+    background-color: #ff9933;
+    border-color: #ff9933;
+}
+
+#badBtn {
+    background-color: #ff3333;
+    border-color: #ff3333;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ff3333;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px; }
+
+.modal-body p {
+    margin: 40px 0px 40px 0px;
+    text-align: left;
+    font-size: 14px;
+    padding: 2% 0px 2% 0px;
+}
+
+.modal-body .imageArea {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%
+}
+
+.modal-body .skillImages {
+    width: 200px;
+    height: 200px;
+}
+
+.modal-body .explanationArea {
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body .details {
+    margin-top: -3%;
+    padding-left: 3em;
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: -2em;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Modal Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Modal Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#loadingImage {
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 20px;
+}
+
+#loader {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+        
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #dcd0b0;
+}
+
+@media screen and (min-width: 1200px) {
+    .measurementArea {
+        margin-top: 100px;
+        margin-bottom: 75px;
+        display: inline-block;
+        border: 0px;
+        width: 50%;
+        float: left;
+    }
+    
+    #taskNameAndTypeArea {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .listingByDate .orderByDates {
+    
+        background-color: white;
+        padding: 10px;
+        
+        width: 100%;
+        height: auto;
+        float: left;
+        padding-left: 3%;
+    }
+    
+    .task {
+        margin: 2%;
+
+        padding: 2%;
+        padding-top: 0.5%;
+        background-color: #eee;
+        display: inline-block;
+        float: left;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+        
+    .task {
+        margin: 2%;
+
+        padding: 2%;
+        padding-top: 0.5%;
+        background-color: #eee;
+        display: inline-block;
+        float: left;
+        width: 95%;
+    }
+}

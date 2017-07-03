@@ -1,0 +1,15 @@
+.content {
+    margin-top: 100px;
+    background-color: white;
+    height: 100%;
+}
+
+.navbar {
+        padding: 0px;
+}
+
+.mastfoot {
+    height: 50px;
+    color: white;
+    padding: 15px;
+}

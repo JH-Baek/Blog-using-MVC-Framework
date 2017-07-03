@@ -1,0 +1,603 @@
+h1 {
+    margin: 0px;
+    margin-bottom: 5%;
+}
+
+body {
+    text-align: center;
+    
+    background-color: #333333;
+}
+
+.mastfoot {
+    height: 50px;
+    color: white;
+    padding: 15px;
+}
+
+#intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../public/images/auckland.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#intro .logoImage {
+    margin: 50px 0px 50px 0px;
+    
+}
+
+#intro .intro-text {
+    color: #ffffff;
+}
+
+#intro a {
+    
+    margin-top: 20px;
+}
+
+.col-sm-6 {
+    
+    
+}
+
+.col-sm-4 {
+    
+    margin-top: 30px;
+}
+
+.skills {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+
+.skills .skillTexts{
+    font-size: 20px;
+}
+
+.col-sm-6 p {
+    margin: 5%;
+}
+
+.col-sm-4  p {
+    margin: 5%;
+    
+}
+
+.col-md-4 p {
+    margin: 5%;
+    
+}
+
+.col-md-6 {
+    margin-bottom: 10%;
+}
+
+.schoolTitle {
+    font-size: 20px;
+}
+
+.schoolImage {
+    margin: 4% 0px 3% 0px;
+    
+}
+
+.iconArea {
+    margin: 30px;
+    
+}
+
+.workExperience {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+}
+
+.workExperience .experienceTexts {
+    font-size: 20px;
+}
+
+.experienceImage {
+    margin-top: 25%;
+    width: 200px;
+    height: 200px;
+}
+
+body section {
+    display: block;
+}
+
+.skills .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.skills:hover .tooltiptext {
+    visibility: visible;
+}
+
+.skills .tooltiptext-right {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    
+    }
+
+.skills:hover .tooltiptext-right {
+    visibility: visible;
+}
+
+.workExperience .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.workExperience:hover .tooltiptext {
+    visibility: visible;
+}
+
+.workExperience .tooltiptext-right {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    
+    }
+
+.workExperience:hover .tooltiptext-right {
+    visibility: visible;
+}
+
+.skills .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.skills:hover .tooltiptext {
+    visibility: visible;
+}
+
+.skills .tooltiptext-right {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.skills:hover .tooltiptext-right {
+    visibility: visible;
+}
+
+#intro {
+    height: 800px;
+}
+
+#about {
+    height: 800px;
+}
+
+#services {
+    height: 800px;
+}
+
+#contact {
+    height: 800px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    height: 70%;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 6px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #dcd0c0;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #fefefe;
+    border-radius: 6px;
+}
+
+.modal-body ul li {
+    text-align: left;
+    font-size: 20px;
+    padding: 2% 0px 2% 0px;
+}
+
+.modal-body .imageArea {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%
+}
+
+.modal-body .skillImages {
+    width: 200px;
+    height: 200px;
+}
+
+.modal-body .explanationArea {
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body .details {
+    margin-top: -3%;
+    padding-left: 3em;
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: -2em;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+@media screen and (max-width: 1480px) {
+    .skills .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .skills:hover .tooltiptext-right {
+        visibility: visible;
+
+    }
+    
+    .workExperience .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 50%;
+    }
+
+    .workExperience:hover .tooltiptext-right {
+        visibility: visible;
+    }
+    
+    .modal-body .skillImages {
+        width: 175px;
+        height: 175px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1260px) {
+
+    .skills .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 50%;
+    }
+
+    .skills:hover .tooltiptext-right {
+        visibility: visible;
+    }
+    
+    .modal-body .skillImages {
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 992px) {
+    .workExperience .tooltiptext {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .workExperience:hover .tooltiptext {
+        visibility: visible;
+    }
+    
+    #contact {
+        height: 1600px;
+    }
+    
+    .workExperience .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .workExperience:hover .tooltiptext-right {
+        visibility: visible;
+    }
+    
+    #contact {
+        height: 1250px;
+    }
+    
+    #about {
+        height: 1200px;
+    }
+    
+    .modal-body ul li {
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    #intro {
+       
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 110% 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .skills .tooltiptext {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .skills:hover .tooltiptext {
+        visibility: visible;
+    }
+    
+    .skills .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .skills:hover .tooltiptext-right {
+        visibility: visible;
+    }
+    
+    .skills .tooltiptext {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .skills:hover .tooltiptext {
+        visibility: visible;
+    }
+    
+    .skills .tooltiptext-right {
+        visibility: hidden;
+        width: 180px;
+        background-color: black;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+    }
+
+    .skills:hover .tooltiptext-right {
+        visibility: visible;
+    }
+    
+    #intro {
+        height: 500px;
+    }
+    
+    #intro {
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    
+    #services {
+        height: 1450px;
+    }
+    
+    #intro .logoImage {
+        margin-top: -50px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #intro a {
+        margin-top: 0px;
+    }
+    
+    .col-sm-6 {
+        margin-bottom: 10%;
+    
+    }
+
+    .col-sm-4 {
+        margin-bottom: 10%;
+        margin-top: 30px;
+    }
+}
